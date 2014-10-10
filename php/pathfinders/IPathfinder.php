@@ -9,6 +9,8 @@
 namespace Pathfinders;
 
 
+use entities\System;
+
 interface IPathfinder
 {
 
