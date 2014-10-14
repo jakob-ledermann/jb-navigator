@@ -8,5 +8,8 @@
 
 class SystemRepositoryTest extends PHPUnit_Framework_TestCase {
 
+    public static function simpleTestCase()
+    {
+    }
 }
  

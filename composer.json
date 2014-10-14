@@ -10,6 +10,7 @@
         }
     ],
     "require": {
-        "phpcollection/phpcollection": "0.4.0"
+        "phpcollection/phpcollection": "0.4.0",
+        "phpunit/phpunit": "4.3.1"
     }
 }
