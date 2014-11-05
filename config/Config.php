@@ -11,9 +11,9 @@ class Config {
     /*
      * Die Verbindungseinstellungen für die Verbindung zur Datenbank (MySQL) des Eve SDD
      */
-    public $StaticDumpDatabaseHost;
-    public $StaticDumpDatabaseUser;
-    public $StaticDumpDatabasePassword;
-    public $StaticDumpDatabaseName;
-    public $StaticDumpDatabasePort;
+    public $StaticDumpDatabaseHost = "localhost";
+    public $StaticDumpDatabaseUser = "root";
+    public $StaticDumpDatabasePassword = "";
+    public $StaticDumpDatabaseName = "eve_static_data_dump";
+    public $StaticDumpDatabasePort = 3306;
 }

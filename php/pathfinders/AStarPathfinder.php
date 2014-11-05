@@ -6,6 +6,11 @@
  * Time: 16:41
  */
 
+namespace
+{
+    require_once "IPathfinder.php";
+}
+
 namespace Pathfinders {
 
     use entities\System;

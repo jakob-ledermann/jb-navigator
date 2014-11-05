@@ -41,9 +41,16 @@
     <label>Ziel: </label>
     <input type="text" name="destination"/>
     <button type="button"
-            onclick="SearchPath($([name == 'startSystem']).value, $([name == 'destination']).value)">Route berechnen
+            onclick="SearchPath($([name == 'startSystem']).value, $([name == 'destination']).value, $([id == 'route']))">
+        Route berechnen
     </button>
 </form>
+
+<div id="route">
+    <ul>
+        <li onclick="CCPEVE.SetDestination()">Jita</li>
+    </ul>
+</div>
 
 </body>
 </html>
